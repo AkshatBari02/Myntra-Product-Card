@@ -1,0 +1,70 @@
+.photo{
+    padding: 2px;
+    height: 250px
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+}
+
+.item{
+    border: 3px solid black;
+}
+
+.txt{
+    padding: 5px;
+}
+
+.mid{
+    display: inline-block;
+}
+
+.mid-txt{
+    float: left;
+    padding-top: 13px;
+    padding-left: 3px;
+}
+
+.discount{
+    color: crimson;
+}
+
+.price{
+    font-weight: 900;
+}
+
+.prev-price{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.like{
+    font-size: 36px;
+    float: right;
+    padding-left: 35px;
+}
+
+
+.like:hover{
+    color: red;
+}
+
+.shop-now{
+    padding: 1px 52px;
+}
+
+.btn{
+    color: white;
+    background-color: darkblue;
+}
+
+.btn:hover{
+    color: blue;
+    background-color:white ;
+    border-radius: 20px;
+    transition: 0.5s;
+}
