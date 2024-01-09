@@ -1,70 +1,75 @@
-.photo{
-    padding: 2px;
-    height: 250px
+body{
+    margin: 0px !important;
+    background-color: blueviolet;
 }
-
-.container{
+.shop-container {
     display: flex;
     flex-direction: column;
     position: relative;
     align-items: center;
-    padding: 20px;
+    padding: 54px;
+    
 }
-
-.item{
+.shop-item {
     border: 3px solid black;
+    background-color: aliceblue;
+    width: max-content;
 }
-
-.txt{
-    padding: 5px;
+.shop-photo {
+    padding: 2px;
+    height: 350px;
+    border-bottom: 1px solid silver;
 }
-
-.mid{
+.shop-txt {
+    padding: 0px 12px;
+}
+.shop-mid {
     display: inline-block;
+    font-size: 18px;
 }
-
-.mid-txt{
+.shop-mid-txt {
     float: left;
-    padding-top: 13px;
-    padding-left: 3px;
+    padding-top: 0px;
+    padding-left: 0px;
 }
-
-.discount{
-    color: crimson;
-}
-
-.price{
-    font-weight: 900;
-}
-
-.prev-price{
-    font-size: 13px;
-    font-weight: 200;
-}
-
-.like{
-    font-size: 36px;
+.shop-like {
+    font-size: 30px;
     float: right;
-    padding-left: 35px;
+    padding-left: 59px;
+    margin-top: -4px;;
 }
-
-
-.like:hover{
+.shop-like i:hover{
+    cursor: pointer;
     color: red;
+    
 }
-
-.shop-now{
-    padding: 1px 52px;
+.fa-solid{
+    color: red !important;
 }
-
-.btn{
-    color: white;
-    background-color: darkblue;
+.price-bar{
+    word-spacing: 2px;
 }
-
-.btn:hover{
-    color: blue;
-    background-color:white ;
-    border-radius: 20px;
-    transition: 0.5s;
+.shop-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+.shop-prev-price {
+    font-size: 14px;
+}
+.shop-discount {
+    color: crimson;
+    font-size: 14px;
+}
+/* .shop-now {
+    padding: 0px 74px;
+} */
+.shop-btn {
+    margin-top: 2px;
+    color: #000;
+    background-color: gray;
+    padding: 10px 6.806rem;
+}
+button:hover{
+    background-color: lightgray;
+    cursor: pointer;
 }
